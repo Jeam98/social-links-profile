@@ -723,9 +723,19 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover\:bg-Green:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(197 248 42 / var(--tw-bg-opacity));
+}
+
 .hover\:text-Green:hover{
   --tw-text-opacity: 1;
   color: rgb(197 248 42 / var(--tw-text-opacity));
+}
+
+.hover\:text-OffBlack:hover{
+  --tw-text-opacity: 1;
+  color: rgb(20 20 20 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
